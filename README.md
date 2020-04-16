@@ -4,4 +4,6 @@
 3. cifar_cnn.ipynb - splits the training data into train and validation sets, trains a CNN with conv2d, maxpooling and FC layers, plots the losses on the training and the validation sets and chooses the model with the lowest validation loss.
 4. cnn_visualizations.ipynb - demonstrates how to create a CNN with planned weights for the filters, how to return both the pre and post activation scores from the conv layer, visualizes both the images and the filters thus helping to understand how the vertical and the horizontal edge detection happens based on the kind of filter being chosen. A real CNN will off course tune the weights of the filters on its own, but this is a great demonstration using pre-planned weights to see the outputs
    of the intermediate hidden layers.
-5. 
+5. style_transfer - this notebook demonstrates that you can use forward propagation on any network to use the weights of that network to get the features(encodings) for your image and you can use the features from any layer you chose to. It also demonstrates that you can cook up any arbitrary loss function that you want to optimize and learn any parameter (the target image in this case - just fix all the other parameters and skip updates on them). This tutorial, besides
+   showing a cool CNN application, also demonstrates the power and ease of use of pytorch and why it is so popular in the research community. 
+6. 
